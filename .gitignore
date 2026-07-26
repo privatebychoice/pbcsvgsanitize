@@ -30,3 +30,6 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Generated fuzz corpus (seed cases live in *_test.go via f.Add)
+testdata/fuzz/
