@@ -96,7 +96,7 @@ go run ./cmd/svgsanitize -report icon.svg      # also print what was removed
 
 ## Development
 
-Common tasks live in the `Makefile` (requires Go 1.26+):
+Common tasks live in the `Makefile` (requires Go 1.27+):
 
 ```bash
 make check   # fmt-check + vet + test + govulncheck — run before pushing
